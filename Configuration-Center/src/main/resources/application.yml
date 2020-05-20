@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: configuration-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/caixuanbin/config-repo-demo/
+          search-paths: master
+server:
+  port: 2002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2000/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}

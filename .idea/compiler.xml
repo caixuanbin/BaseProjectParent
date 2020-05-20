@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EntityCommon" />
+        <module name="Dao-Common" />
+        <module name="SpringRedisSession" />
+        <module name="KafkaCenter" />
+        <module name="UtilsCommon" />
+        <module name="ProductCenter" />
+        <module name="RabbitMQ-Center" />
+        <module name="OrderCenter" />
+        <module name="UserCenter" />
+        <module name="Spring-Redis-Session" />
+        <module name="Configuration-Center" />
+        <module name="SpringConfig" />
+        <module name="Utils-Common" />
+        <module name="Spring-Security" />
+        <module name="Shop" />
+        <module name="SpringSecurityJwt" />
+        <module name="RabbitMQCenter" />
+        <module name="RegistryCenter" />
+        <module name="Product-Center" />
+        <module name="Spring-Config" />
+        <module name="RouteGateway" />
+        <module name="Route-Gateway" />
+        <module name="AuthCenter" />
+        <module name="DaoCommon" />
+        <module name="SpringSecurity" />
+        <module name="ServiceCommon" />
+        <module name="User-Center" />
+        <module name="ConfigurationCenter" />
+        <module name="Spring-Security-Jwt" />
+        <module name="Order-Center" />
+        <module name="Kafka-Center" />
+        <module name="Service-Common" />
+        <module name="Entity-Common" />
+        <module name="Registry-Center" />
+        <module name="Auth-Center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringSecurity_Jwt" target="1.8" />
+      <module name="SpringSecuriyJwt" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Auth-Center" options="-parameters" />
+      <module name="Configuration-Center" options="-parameters" />
+      <module name="Dao-Common" options="-parameters" />
+      <module name="Entity-Common" options="-parameters" />
+      <module name="Kafka-Center" options="-parameters" />
+      <module name="Order-Center" options="-parameters" />
+      <module name="Product-Center" options="-parameters" />
+      <module name="RabbitMQ-Center" options="-parameters" />
+      <module name="Registry-Center" options="-parameters" />
+      <module name="Route-Gateway" options="-parameters" />
+      <module name="Service-Common" options="-parameters" />
+      <module name="Shop" options="-parameters" />
+      <module name="Spring-Config" options="-parameters" />
+      <module name="Spring-Redis-Session" options="-parameters" />
+      <module name="Spring-Security" options="-parameters" />
+      <module name="Spring-Security-Jwt" options="-parameters" />
+      <module name="User-Center" options="-parameters" />
+      <module name="Utils-Common" options="-parameters" />
+    </option>
+  </component>
+</project>

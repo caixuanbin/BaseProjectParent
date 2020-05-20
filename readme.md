@@ -1,0 +1,9 @@
+本工程是采用springboot+springcloud搭建的微服务应用示例型框架，仅供学习使用，springboot版本采用2.0.3.RELEASE，springcloud版本采用了Finchley.RELEASE，本工程实现了以下功能
+1、采用springcloud里面的zuul实现了网关；
+2、使用了springcloud里面的eureka做服务注册与发现；
+3、使用了springcloud里面的ribbon和feign做负载均衡和声明式调用；
+4、使用了springcloud里面的hystrix做降低与熔断；
+5、使用了spring-cloud-config-server做全局配置中心；
+6、采用了spring-security-jwt做安全权限控制；
+7、采用rabbitmq做全局消息通知
+......
